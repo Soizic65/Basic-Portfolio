@@ -26,7 +26,7 @@ header {
     width:960px;
     margin:40px 470px;
     border: 1px solid grey;
-    flex: 0 auto;
+    
 }
 
 .about{
@@ -55,10 +55,14 @@ header {
     top:30px;
 }
 
+a{
+    color:#777777;
+    text-decoration:none;
+}
 section{   
     border:2px solid #dddddd;
     background-color:#ffffff;
-    padding-bottom:200px;
+   
     
 }
 
@@ -66,7 +70,7 @@ section{
     display:flex;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     padding-top:20px;
-    align:right;
+    
 }
 
 
@@ -90,3 +94,101 @@ section{
     padding:20px;
 }
 
+p{
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.5;
+    flex-direction:row;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+img{
+    float:left;
+    margin:0 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0 10px 20px;
+    padding: 5px;
+    width:926px;
+    color:#777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#message{ 
+    width: 100%;
+    padding: 100px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}    
+
+
+
+#email{
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+}
+#name{
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#submit{
+    align-items: center;
+    background-color: #4aaaa5;
+    color: #fff;
+    font-size: 1em;
+    justify-content: flex-start;
+    height: 35px;
+    width: 88px;
+}
+
+.port{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size:20pt;
+    font-weight:bold;
+    color:teal;
+    padding:20px;
+    width:746px;
+}
+
+.content{
+    height: 790px;
+    display: flex;
+    margin:40px 470px;
+    border: 1px solid grey;
+    width:790px;
+    position:relative;
+    left:100px;
+}
+
+.pname{
+    font-size: 20pt;
+    position:absolute;
+    font-weight:bold;
+	color: white;
+	background-color: #4aaaa5;
+    left: 570px;
+    top:0px;
+	padding: 25px;
+}
+
+.onefooter{
+    border-top: 8px solid #4aaaa5;
+    flex-shrink: 0;
+    padding-bottom:50px;
+    background-color:#666666;
+    position:relative;
+    top:150px;
+    text-align:center;
+    color:white;
+}
