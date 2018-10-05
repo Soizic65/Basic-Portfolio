@@ -192,3 +192,112 @@ form{
     text-align:center;
     color:white;
 }
+
+.portfolio-images{
+    position:relative;
+    text-align:center;
+    color:white;
+}
+.text-overlay{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    background-color: #4aaaa5;
+    width: 220px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    left:20px;
+    top:110px;
+}
+.twotext-overlay{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    background-color: #4aaaa5;
+    width: 220px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    right:286px;
+    top:110px;
+}
+
+.threetext-overlay{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    background-color: #4aaaa5;
+    width: 220px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    right:26px;
+    top:110px;
+}
+
+.twoportfolio-images{
+    position:relative;
+    text-align:center;
+    color:white;
+    top:35px;
+}
+
+.fourtext-overlay{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    background-color: #4aaaa5;
+    width: 220px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    left:20px;
+    top:275px;
+}
+
+.fivetext-overlay{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    background-color: #4aaaa5;
+    width: 220px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    right:286px;
+    top:275px;
+}
+
+.sixtext-overlay{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    background-color: #4aaaa5;
+    width: 220px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    right:26px;
+    top:275px; 
+}
+
+.seventext-overlay{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    background-color: #4aaaa5;
+    width: 220px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    left:20px;
+    top:440px;
+}
+
+.fourportfolio-images{
+    position:relative;
+    text-align:center;
+    color:white;
+    top:35px;
+}
